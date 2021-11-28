@@ -12,5 +12,4 @@ int main()
 		n = n / 10;
 	}
 	cout << sum;
-	return 0;
 }

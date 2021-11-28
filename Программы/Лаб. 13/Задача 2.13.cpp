@@ -20,6 +20,4 @@ int main()
 	{
 		cout << "No roots";
 	}
-
-	return 0;
 }
