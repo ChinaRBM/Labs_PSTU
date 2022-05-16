@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Калькуляторградусов {
+namespace ГЉГ Г«ГјГЄГіГ«ГїГІГ®Г°ГЈГ°Г Г¤ГіГ±Г®Гў {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -10,7 +10,7 @@ namespace Калькуляторградусов {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace Калькуляторградусов {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -90,14 +90,14 @@ namespace Калькуляторградусов {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -137,7 +137,7 @@ namespace Калькуляторградусов {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(138, 23);
 			this->button1->TabIndex = 0;
-			this->button1->Text = L"Посчитать";
+			this->button1->Text = L"ГЏГ®Г±Г·ГЁГІГ ГІГј";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -218,7 +218,7 @@ namespace Калькуляторградусов {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(11, 13);
 			this->label2->TabIndex = 14;
-			this->label2->Text = L"°";
+			this->label2->Text = L"В°";
 			// 
 			// label3
 			// 
@@ -227,7 +227,7 @@ namespace Калькуляторградусов {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(11, 13);
 			this->label3->TabIndex = 15;
-			this->label3->Text = L"°";
+			this->label3->Text = L"В°";
 			// 
 			// label4
 			// 
@@ -236,7 +236,7 @@ namespace Калькуляторградусов {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(11, 13);
 			this->label4->TabIndex = 16;
-			this->label4->Text = L"°";
+			this->label4->Text = L"В°";
 			// 
 			// label1
 			// 
@@ -356,7 +356,7 @@ namespace Калькуляторградусов {
 			this->label12->Name = L"label12";
 			this->label12->Size = System::Drawing::Size(99, 13);
 			this->label12->TabIndex = 40;
-			this->label12->Text = L"Введите значения";
+			this->label12->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГї";
 			// 
 			// button2
 			// 
@@ -364,7 +364,7 @@ namespace Калькуляторградусов {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(66, 52);
 			this->button2->TabIndex = 41;
-			this->button2->Text = L"Очистить";
+			this->button2->Text = L"ГЋГ·ГЁГ±ГІГЁГІГј";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -412,14 +412,14 @@ namespace Калькуляторградусов {
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedToolWindow;
 			this->Name = L"MyForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Калькулятор градусов";
+			this->Text = L"ГЉГ Г«ГјГЄГіГ«ГїГІГ®Г° ГЈГ°Г Г¤ГіГ±Г®Гў";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
 		}
 #pragma endregion
-	private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e) 
+	private: System::Void MyForm_Load(System::Object^ sender, System::EventArgs^ e)//РџРѕРґРіРѕС‚РѕРІРєР° СЃ РѕС‡РёСЃС‚РєРѕР№ С‚РµРєСЃС‚Р±РѕРєСЃРѕРІ
 	{
 		textBox1->Text = "";
 		textBox2->Text = "";
@@ -431,15 +431,15 @@ namespace Калькуляторградусов {
 		textBox8->Text = "";
 		textBox9->Text = "";
 	}
-private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) 
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e)//РЎРѕР±С‹С‚РёРµ РЅР°Р¶Р°С‚РёСЏ РєРЅРѕРїРєРё РїРѕСЃС‡РёС‚Р°С‚СЊ
 {
-	if (textBox6->Text == "" && textBox5->Text == "" && textBox4->Text == "")
+	if (textBox6->Text == "" && textBox5->Text == "" && textBox4->Text == "")//РџСЂРѕРІРµСЂРєР° РїСѓСЃС‚РѕС‚С‹ С‚РµРєСЃС‚Р±РѕРєСЃРѕРІ РІС‚РѕСЂРѕРіРѕ С‡РёСЃР»Р°
 	{
 
 	}
 	else
 	{
-		if (textBox1->Text == ""){textBox1->Text = "0";}
+		if (textBox1->Text == ""){textBox1->Text = "0";}//РџСЂРѕРІРµСЂРєРё РЅР° РїСѓСЃС‚РѕС‚Сѓ С‚РµРєСЃС‚Р±РѕРєСЃРѕРІ СЃ Р·Р°РјРµРЅРѕР№ РЅР° 0
 		if (textBox3->Text == ""){textBox3->Text = "0";}
 		if (textBox2->Text == ""){textBox2->Text = "0";}
 		if (textBox6->Text==""){textBox6->Text = "0";}
@@ -451,11 +451,11 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		long int d = System::Convert::ToInt64(textBox6->Text);
 		long int f = System::Convert::ToInt64(textBox5->Text);
 		long int g = System::Convert::ToInt64(textBox4->Text);
-		long int first, second, third;
-		first = a * 3600 + b * 60 + c ;
-		second = d * 3600 + f * 60 + g ;
-		String^ var = System::Convert::ToString(textBox10->Text);
-		if (var == "+")
+		long int first, second, third;//РћР±СЉСЏРІР»РµРЅРёРµ РїРµСЂРµРјРµРЅРЅС‹С… РґР»СЏ 3-С… С‡РёСЃРµР»
+		first = a * 3600 + b * 60 + c ;//РџРµСЂРµРІРµРґС‘РЅРЅРѕРµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ
+		second = d * 3600 + f * 60 + g ;//РџРµСЂРµРІРµРґС‘РЅРЅРѕРµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ
+		String^ var = System::Convert::ToString(textBox10->Text);//РљРѕРЅРІРµСЂС‚РёСЂРѕРІР°РЅРёРµ С‚РµРєСЃС‚Р° РёР· С‚РµРєСЃС‚Р±РѕРєСЃР° РґР»СЏ РґРµР№СЃС‚РІРёР№
+		if (var == "+")//4 С„СѓРЅРєС†РёРё РґР»СЏ СЃС‡РёС‚С‹РІР°РЅРёСЏ РґРµР№СЃС‚РІРёР№ РІ С‚РµРєСЃС‚Р±РѕРєСЃРµ
 		{
 			third = first + second;
 			textBox7->Text = System::Convert::ToString(third/3600);
@@ -471,7 +471,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		}
 		else if (var == "/")
 		{
-			if(second == 0){}
+			if(second == 0){}//РџСЂРѕРІРµСЂРєР° РІС‚РѕСЂРѕРіРѕ С‡РёСЃР»Р°, С‡С‚РѕР±С‹ РѕРЅРѕ Р±С‹Р»Рѕ РЅРµ = 0
 			else 
 			{
 				double first1 = System::Convert::ToDouble(first);
@@ -497,7 +497,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		}
 	}
 }
-private: System::Void button14_Click(System::Object^ sender, System::EventArgs^ e) 
+private: System::Void button14_Click(System::Object^ sender, System::EventArgs^ e)//РљРЅРѕРїРєРё РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ С‚РµРєСЃС‚Р±РѕРєСЃР° РґР»СЏ РґРµР№СЃС‚РІРёР№
 {
 	String^ plus = "+";
 	textBox10->Text = System::Convert::ToString(plus);
@@ -520,7 +520,7 @@ private: System::Void button16_Click(System::Object^ sender, System::EventArgs^ 
 	String^ mult = "*";
 	textBox10->Text = System::Convert::ToString(mult);
 }
-private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e)
+private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e)//РљРЅРѕРїРєР° РѕС‡РёСЃС‚РєРё
 {
 	textBox1->Text = "";
 	textBox2->Text = "";
