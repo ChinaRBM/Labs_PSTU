@@ -165,7 +165,7 @@ void Graph::Print()
 
 Graph graph;//Инициализация переменной класса Graph
 
-void Djkstra(int*** inter, int n, int** helpinter, int* path)//Алгоритм дейкстры
+void Vig(int*** inter, int n, int** helpinter, int* path)//Метод ветвей и границ
 {
 	for (int l = 0; l < n; l++)//Циклы от кол-ва вершин
 	{
@@ -221,6 +221,7 @@ void Djkstra(int*** inter, int n, int** helpinter, int* path)//Алгоритм 
 					mj = j;
 				}
 		path[mi] = mj;//Составление массива мин-го пути
+		//Редукция строк и столбцов
 		for (int i = 0; i < n; i++)
 			inter[i][mj] = nullptr;//Присваивание нулевого указателя по ширине
 		for (int i = 0; i < n; i++)
@@ -258,7 +259,7 @@ void MinPath(int*** inter, int n, int** helpinter, int* result)//Функция 
 {
 	Prepare(inter, n, helpinter, result);//Функция подготовки
 	int s = 0;//Переменная для хранения длины мин-го пути
-	Djkstra(inter, n, helpinter, result);//Функция для алгоритма дейкстры
+	Vig(inter, n, helpinter, result);//Функция для метода ветвей и границ
 	for (int i = 0, j = 0; i < n; i++)
 	{
 		j = result[i];//Присваивание j номера следующего номера вершины пути
