@@ -7,10 +7,10 @@
 #include <math.h>
 using namespace std;
 
-int n;//Ко-во вершин
-int** helpinter;//Вспомогательный массив
+int n;//Кол-во вершин
+int** helpinter;//Вспомогательный массив для оценок пути
 int* result;//Массив для пути
-int*** inter;//Матрица смжености
+int*** inter;//Матрица смежности
 const int maxSize = 20;//Максимальное кол-во вершин
 int amountVerts;//Переменная для кол-ва вершин
 
