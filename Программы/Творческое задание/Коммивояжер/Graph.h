@@ -221,7 +221,6 @@ void Vig(int*** inter, int n, int** helpinter, int* path)//Метод ветве
 					mj = j;
 				}
 		path[mi] = mj;//Составление массива мин-го пути
-		//Редукция строк и столбцов
 		for (int i = 0; i < n; i++)
 			inter[i][mj] = nullptr;//Присваивание нулевого указателя по ширине
 		for (int i = 0; i < n; i++)
