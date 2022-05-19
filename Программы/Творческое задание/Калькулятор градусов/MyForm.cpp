@@ -1,6 +1,6 @@
 #include "MyForm.h"
 
-using namespace Калькуляторградусов;
+using namespace РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ РіСЂР°РґСѓСЃРѕРІ;
 
 int main()
 {
