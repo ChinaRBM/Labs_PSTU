@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Êàëüêóëÿòîðãðàäóñîâ {
+namespace Калькулято градусов {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -10,7 +10,7 @@ namespace Êàëüêóëÿòîðãðàäóñîâ {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Ñâîäêà äëÿ MyForm
+	/// Сводка для MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace Êàëüêóëÿòîðãðàäóñîâ {
 		{
 			InitializeComponent();
 			//
-			//TODO: äîáàâüòå êîä êîíñòðóêòîðà
+			//TODO: добавьте код конструктора
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Îñâîáîäèòü âñå èñïîëüçóåìûå ðåñóðñû.
+		/// Освободить все используемые ресурсы.
 		/// </summary>
 		~MyForm()
 		{
@@ -90,14 +90,14 @@ namespace Êàëüêóëÿòîðãðàäóñîâ {
 
 	private:
 		/// <summary>
-		/// Îáÿçàòåëüíàÿ ïåðåìåííàÿ êîíñòðóêòîðà.
+		/// Обязательная переменная конструктора.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Òðåáóåìûé ìåòîä äëÿ ïîääåðæêè êîíñòðóêòîðà — íå èçìåíÿéòå 
-		/// ñîäåðæèìîå ýòîãî ìåòîäà ñ ïîìîùüþ ðåäàêòîðà êîäà.
+		/// Требуемый метод для поддержки конструктора — не изменяйте 
+		/// содержимое того метода с помощью редактора кода.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -137,7 +137,7 @@ namespace Êàëüêóëÿòîðãðàäóñîâ {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(138, 23);
 			this->button1->TabIndex = 0;
-			this->button1->Text = L"Ïîñ÷èòàòü";
+			this->button1->Text = L"Посчитать";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -356,7 +356,7 @@ namespace Êàëüêóëÿòîðãðàäóñîâ {
 			this->label12->Name = L"label12";
 			this->label12->Size = System::Drawing::Size(99, 13);
 			this->label12->TabIndex = 40;
-			this->label12->Text = L"Ââåäèòå çíà÷åíèÿ";
+			this->label12->Text = L"Введите значения";
 			// 
 			// button2
 			// 
@@ -364,7 +364,7 @@ namespace Êàëüêóëÿòîðãðàäóñîâ {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(66, 52);
 			this->button2->TabIndex = 41;
-			this->button2->Text = L"Î÷èñòèòü";
+			this->button2->Text = L"Очистить";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -412,7 +412,7 @@ namespace Êàëüêóëÿòîðãðàäóñîâ {
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedToolWindow;
 			this->Name = L"MyForm";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Êàëüêóëÿòîð ãðàäóñîâ";
+			this->Text = L"Калькулятор градусов";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
