@@ -34,7 +34,7 @@ public:
 
 int R;
 
-struct vertCoord//Структура дял координат
+struct vertCoord//Структура для координат
 {
 	int x, y;
 };
@@ -44,7 +44,7 @@ void Graph::InsertVertex(const int& vertex)
 {
 	if (!this->Full())//Если не полон
 	{
-		this->vertList.push_back(vertex);//Вставка вершины с помощью встреонной функции библиотеки <vector>
+		this->vertList.push_back(vertex);//Вставка вершины с помощью встроенной функции библиотеки <vector>
 	}
 	else 
 	{
