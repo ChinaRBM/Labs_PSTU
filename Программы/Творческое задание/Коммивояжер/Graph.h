@@ -48,7 +48,7 @@ void Graph::InsertVertex(const int& vertex)
 	}
 	else 
 	{
-		cout << "Ãðàô ïîëîí. " << endl;//Граф полон
+		cout << "Граф полон. " << endl;
 		return;
 	}
 }
